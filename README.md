@@ -12,7 +12,7 @@ This will also alias `g` to `git`.
 First, clone the repo:
 
 ```sh
-git clone https://github.com/remino/git-aliases.git "$ZSH/custom/plugins/git-aliases"
+git clone https://github.com/remino/omz-plugin-git-aliases.git "$ZSH_CUSTOM/plugins/git-aliases"
 ```
 
 Second, add `git-plugins` to your Oh My Zsh plugins:
