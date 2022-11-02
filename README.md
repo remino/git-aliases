@@ -15,10 +15,10 @@ First, clone the repo:
 git clone https://github.com/remino/omz-plugin-git-aliases.git "$ZSH_CUSTOM/plugins/git-aliases"
 ```
 
-Second, add `git-plugins` to your Oh My Zsh plugins:
+Second, add `git-aliases` to your Oh My Zsh plugins:
 
 ```
-plugins+=(git-plugins)
+plugins+=(git-aliases)
 ```
 
 Last, restart your shell.
