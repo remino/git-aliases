@@ -8,7 +8,7 @@ _git_aliases_set() {
 
 	git config --get-regexp 'alias\..' | sed 's/^alias\.//' | while read name cmd
 	do
-		alias g$name="git $name"
+		alias g$name="git $cmd"
 	done
 }
 
